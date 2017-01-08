@@ -1,0 +1,64 @@
+== A catalog of CDI extensions
+
+A catalog of CDI extensions that can be used with Java EE.
+Another catalog is already on http://www.cdi-spec.org/ecosystem/[CDI-spec page].
+Other CDI projects:
+
+ - https://github.com/rmannibucau?utf8=%E2%9C%93&tab=repositories&q=cdi&type=&language=[Romain Bucau Github]
+
+An article by https://dzone.com/articles/directory-cdi-plugins[Reza Rahman] (call to arms :) )
+
+[cols="1,2,1,1,1,1,1", options="header"]
+|===
+| Extension | Short Description | Platform | Platform Details| Required Libraries | Java Version | Licence
+
+|https://github.com/astefanutti/camel-cdi[Camel CDI (astefanutti)]
+|CDI extension for Camel. Upstram project for Apache Camel CDI to build and explore on newer technologies
+|CDI
+|CDI 1.2 or OSGI 6
+|Camel (camel-core)
+|8.0
+|APLv2
+
+|https://github.com/apache/camel/tree/master/components/camel-cdi[Apache Camel CDI]
+|Apache Camel project CDI extension. Since Apache Camel version 2.17.0, it is based on _Camel CDI (astefanutti)_
+|CDI
+|CDI 1.2 or OSGI 6
+|Camel (camel-core)
+|8.0
+|APLv2
+
+|https://github.com/tomitribe/jcache-cdi[JCache-CDI (tomitribe)]
+|Provides injection of default implementations of JCache interfaces (CachingProvider, CacheManager).
+|CDI
+|
+|JCache impl. (e.g. Hazelcast)
+|
+|APLv2
+
+|https://github.com/tomitribe/sabot[Sabot]
+|Inject configuration values from system properties, a property file, or defined programmatically.
+|CDI
+|CDI 1.0
+|None
+|6.0
+|APLv2
+
+
+|https://github.com/tomitribe/microscoped[MicroScoped]
+|Provides extensions that define additional CDI scopes, like `@MethodScoped`. Also helps with implementing a new custom scope.
+|Java EE
+|Java EE 6,7
+|None
+|
+|APLv2
+
+|
+|
+|
+|
+|
+|
+|
+
+|===
