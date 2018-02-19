@@ -1,3 +1,5 @@
+[red]#Styled#
+
 - https://javaee.github.io/tutorial/[Java EE Tutorial]
 - https://javaee-cool.github.io/docs/home/[Java EE "Cool" Guide]
 - https://github.com/javaee-samples[Java EE Example Projects]
